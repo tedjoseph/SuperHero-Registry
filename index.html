@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css-reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" defer></script>
+    <title>SuperHero Api</title>
+</head>
+<body>
+    <div id="superheroDiv">
+        <div id="superhero-selection">
+            <input id="superhero-searchbox" name="name" type="text" value="" placeholder="Search..">
+            <button id="searchSuperheroButton">Search Hero</button>
+            <button id="randomSuperheroButton">Get Random Hero!</button>
+        </div>
+        <div id="flexbox-superheroDisplay">
+            <div id="header">
+                <h1><span id="header-text"><q>Heroes are made by the path they choose, not the powers they are graced with.</q></span><span id="superheroName"></span></h1>
+            </div>
+            <img id="superheroImage" src="https://cdn.shopify.com/s/files/1/1305/2183/products/Vintage_Superhero_Poster6_1024x1024.jpg" alt="Superhero Image">
+            <div id="powerStats">
+                <p id="powerStatsLabel">Power Stats</p>
+                <div>
+                    <ul id="statsList">
+                        <li><span class="stat-description">🧠 Intelligence: </span><span class="scores" id="intelligence"></span></li>
+                        <li><span class="stat-description">💪 Strength: </span><span class="scores" id="strength"></span></li>
+                        <li><span class="stat-description">🏃 Speed: </span><span class="scores" id="speed"></span></li>
+                        <li><span class="stat-description">🤼 Combat: </span><span class="scores" id="combat"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

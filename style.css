@@ -1,0 +1,79 @@
+@media screen {
+    }
+/* IDs */
+#superheroDiv {
+      margin: 5px 0 0 5px;
+      width: 50vw;
+  }
+#superhero-selection {
+      margin: 0 0 5px 0;
+  }
+#flexbox-superheroDisplay {
+      align-items: center;
+      background-color: rgb(248, 239, 204);
+      border: 2px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      width: 50vw;
+  }
+#header {
+      padding:20px 0 10px;
+  }
+#header-text {
+      color: #0818A8;
+  }
+#superheroImage {
+      border: 3px double black;
+      width: 66%;
+  }
+#superheroName {
+      font-style: italic;
+  }
+#powerStats {
+      font-size: 1vw;
+      visibility: hidden;
+      word-wrap: break-word;
+      align-self: stretch;
+      text-align: center;
+  }
+#powerStatsLabel {
+      color: #0818A8;
+      text-decoration: underline;
+      font-weight: bold;
+      margin: 0;
+      padding: 3px 0;
+  }
+#statList {
+  display: inline-block;
+}
+#statsList li {
+      padding: 1px 0;
+  }
+/* CLASSES */
+.listItem {
+      color:brown;
+  }
+.stat-description {
+      color: #5C4033;
+  }
+/* ELEMENTS */
+h1 {
+      font-size: 1vw;
+  }
+ul {
+      margin: 0;
+      padding: 0;
+  }
+li {
+      list-style: none;
+  }
+p {
+      margin: 0;
+      padding: 0;
+  }
+/* PSEUDO ~ CLASSES | ELEMENTS */
+#superhero-searchbox:hover {
+      margin: 15;
+      padding: 34;
+  }
